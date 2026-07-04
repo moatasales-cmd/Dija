@@ -1,0 +1,9 @@
+[master 05a179f] Expert content audit + dev hardening pass
+ 23 files changed, 608 insertions(+), 172 deletions(-)
+ create mode 100644 app/(site)/[legal]/page.tsx
+ create mode 100644 app/api/admin/fix-content/route.ts
+ create mode 100644 app/error.tsx
+ create mode 100644 app/not-found.tsx
+ create mode 100644 prisma/audit-stones.ts
+ create mode 100644 prisma/fix-content.ts
+ create mode 100644 prisma/migrations/20260702083226_stone_dm/migration.sql

@@ -1,0 +1,13 @@
+@echo off
+REM One-shot: reseed corrected data, then write all verification reports.
+cd /d "%~dp0"
+echo [1/4] Seeding corrected data...
+call npm run seed > seed-report.txt 2>&1
+echo [2/4] Running stone data audit...
+call npx tsx prisma/audit-stones.ts > audit-report.txt 2>&1
+echo [3/4] Type-checking...
+call npx tsc --noEmit > tsc-report.txt 2>&1
+echo [4/4] Production build (takes a minute or two)...
+call npm run build > build-report.txt 2>&1
+echo.
+echo All done - reports written. Tell Claude "done".

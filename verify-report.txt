@@ -1,0 +1,10 @@
+/quarries -> 200
+/privacy -> 200
+/terms -> 200
+/cookies -> 200
+/materials/fantasy-brown -> 200
+/materials/brasilia-red -> 200
+/materials/thassos-white -> 200
+/datasheet/thassos-white -> 200
+/catalogue -> 200
+/no-such-page -> 404

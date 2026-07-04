@@ -1,0 +1,82 @@
+
+> dija-next-3.0@0.1.0 build
+> next build
+
+▲ Next.js 16.2.9 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.7s
+  Running TypeScript ...
+  Finished TypeScript in 4.7s ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/50) ...
+  Generating static pages using 15 workers (12/50) 
+  Generating static pages using 15 workers (24/50) 
+  Generating static pages using 15 workers (37/50) 
+✓ Generating static pages using 15 workers (50/50) in 467ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /[legal]
+├ ƒ /account
+├ ƒ /account/proformas
+├ ƒ /admin
+├ ƒ /admin/clients
+├ ƒ /admin/leads
+├ ƒ /admin/login
+├ ƒ /admin/posts
+├ ƒ /admin/posts/[id]
+├ ƒ /admin/proformas
+├ ƒ /admin/stones
+├ ƒ /admin/stones/[id]
+├ ƒ /api/admin/fix-content
+├ ƒ /api/admin/login
+├ ƒ /api/admin/logout
+├ ƒ /api/admin/posts
+├ ƒ /api/admin/proformas/[id]
+├ ƒ /api/admin/stones
+├ ƒ /api/admin/stones/[id]
+├ ƒ /api/auth/google
+├ ƒ /api/auth/login
+├ ƒ /api/auth/logout
+├ ƒ /api/auth/me
+├ ƒ /api/auth/register
+├ ƒ /api/auth/send-code
+├ ƒ /api/auth/verify
+├ ƒ /api/contact
+├ ƒ /api/favorites
+├ ƒ /api/newsletter
+├ ƒ /api/profile
+├ ƒ /api/proforma
+├ ƒ /api/quote
+├ ƒ /api/trade
+├ ƒ /catalogue
+├ ƒ /collections
+├ ƒ /collections/[id]
+├ ƒ /compare
+├ ƒ /contact
+├ ƒ /datasheet/[id]
+├ ƒ /heritage
+├ ƒ /journal
+├ ƒ /journal/[id]
+├ ƒ /login
+├ ƒ /materials
+├ ƒ /materials/[id]
+├ ƒ /materials/[id]/datasheet
+├ ƒ /proforma
+├ ƒ /proforma/[id]
+├ ƒ /projects
+├ ƒ /projects/[id]
+├ ƒ /quarries
+├ ○ /robots.txt
+├ ○ /sitemap.xml
+├ ƒ /sustainability
+└ ƒ /trade
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,5 @@
+Stones: 152
+Countries (10): Italy:27, Greece:14, Turkey:38, Spain:11, France:8, Portugal:5, Tunisia:6, India:19, Brazil:14, Iran:10
+Types (6): Marble:71, Limestone:24, Travertine:17, Granite:23, Quartzite:7, Onyx:10
+
+--- ISSUES (0) ---

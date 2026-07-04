@@ -1,0 +1,18 @@
+
+> dija-next-3.0@0.1.0 seed
+> tsx prisma/seed.ts
+
+Clearing existing data…
+Stones:      152
+Collections: 6
+Projects:    11
+Posts:       10
+Clients:     9
+Favorites:   13
+Proformas:   9
+Contacts:    1
+Quotes:      1
+Trade apps:  2
+Offices:     10
+
+✅ Migration complete.
